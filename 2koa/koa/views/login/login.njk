@@ -1,0 +1,11 @@
+{% extends '../base.njk' %}
+{% block body %}
+  <p>index</p>
+  <form action="/signin" method="post">
+    <p>Name:
+      <input name="name" value="koa"></p>
+    <p>Password:
+      <input name="password" type="password"></p>
+    <p><input type="submit" value="Submit"></p>
+  </form>
+{% endblock %}
